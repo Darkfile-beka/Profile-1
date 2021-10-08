@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./image/img-2.jpg" type="image/x-icon">
+    <title>Profile Loading Page Beka</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="bannner">
+            <img src="image/img-2.jpg" class="cover">
+        </div>
+        <div class="navLink">
+            <ul>
+                <li><a href="https://beka-info.netlify.app/#home">Home</a></li>
+                <li><a href="https://beka-info.netlify.app/#profile">About</a></li>
+                <li><a href="https://beka-info.netlify.app/#references">Services</a></li>
+                <li><a href="https://beka-info.netlify.app/#references">Portofolis</a></li>
+                <li><a href="https://beka-info.netlify.app/#certificates">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="sec">
+        <header>
+            <div class="toggle"></div>
+            <a href="#" class="btn">Hire Me</a>
+        </header>
+        <div class="imgBx">
+            <img src="image/img-1.jpg" class="cover">
+        </div>
+        <div class="content">
+            <h3>Salom, Men <br><span>Xudayberdiyev Og'abek</span></h3>
+            <p>Men Bu Sahifani Uzim Xaqimda Malimot Berish Maqsatida Ochmoqdaman. Men Juda Ko'p Joylarda O'z Malakamni
+                Oshirib Bormoqdaman Va Bu Bilan O'zbekiston Respublikasi O'z Xisamni Qo'shish Niyatim Bor.</p>
+            <a href="./sertivikat rar.rar" download="" class="btn">Yuklab Oling CV</a>
+        </div>
+        </div>
+        <footer>
+            <ul class="sci">
+                <li>
+                    <a href="https://github.com/Darkfile-beka"><img class="icons" src="image/facebook.png"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Beka10497043"><img class="icons" src="image/twitter.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/beka_391/"><img class="icons" src="image/instagram.png "></a>
+                </li>
+            </ul>
+            <p class="copyrightText">web manger Beka | web - 8-oct 2021</p>
+        </footer>
+
+    </section>
+    <script>
+        let menuToggle = document.querySelector('.toggle');
+        let navigation = document.querySelector('.navigation');
+        let sec = document.querySelector('.sec');
+        menuToggle.onclick = function () {
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+            sec.classList.toggle('active');
+
+        }
+    </script>
+
+</body>
+
+</html>
